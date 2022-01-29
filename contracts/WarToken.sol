@@ -593,10 +593,13 @@ contract BEP20 is Context, IBEP20, Ownable {
      * All three of these values are immutable: they can only be set once during
      * construction.
      */
-    constructor(string memory name, string memory symbol) public {
+    constructor(string memory name, string memory symbol, uint256 initialMintAmount) public {
         _name = name;
         _symbol = symbol;
         _decimals = 18;
+        _totalSupply = initialMintAmount;
+        _balances[msg.sender] = initialMintAmount;
+        emit Transfer(address(0), msg.sender, initialMintAmount);
     }
 
     /**
@@ -857,7 +860,7 @@ contract BEP20 is Context, IBEP20, Ownable {
 }
 
 // WarToken with Governance.
-contract WarToken is BEP20('Ares Token', 'WAR') {
+contract WarToken is BEP20('Ares Token', 'WAR',500000000000000000000000) {
     /// @notice Creates `_amount` token to `_to`. Must only be called by the owner (MasterChef).
     function mint(address _to, uint256 _amount) public onlyOwner {
         _mint(_to, _amount);

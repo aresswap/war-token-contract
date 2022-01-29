@@ -30,4 +30,4 @@ There should also be 0.5% tax fee on each trade done on the Dex (0.25 for liquid
 I’ll get back to you on everything else
 
 
-deployed on testnet : 0xEce17A3B7f0486249Cf68Ee69c6a6A873e6842D1
+deployed on testnet : 0x809Efde6011DD5D641394f03f3F260B43D083a32
