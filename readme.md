@@ -28,3 +28,6 @@ Swap allocation fee I’ll get back to you on that
 There should also be 0.5% tax fee on each trade done on the Dex (0.25 for liquidity and 0.25 sent to the dev wallet I sent you earlier)
 
 I’ll get back to you on everything else
+
+
+deployed on testnet : 0xEce17A3B7f0486249Cf68Ee69c6a6A873e6842D1

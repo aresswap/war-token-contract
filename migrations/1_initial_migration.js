@@ -1,5 +1,4 @@
-const Migrations = artifacts.require("Migrations");
-
+const WarToken = artifacts.require("WarToken");
 module.exports = function (deployer) {
-  deployer.deploy(Migrations);
+  deployer.deploy(WarToken);
 };
