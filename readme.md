@@ -30,4 +30,6 @@ There should also be 0.5% tax fee on each trade done on the Dex (0.25 for liquid
 I’ll get back to you on everything else
 
 
-deployed on testnet : 0x809Efde6011DD5D641394f03f3F260B43D083a32
+deployed on testnet : 
+0x809Efde6011DD5D641394f03f3F260B43D083a32 (Ares Token)
+0xEa93df45a8e574E2499728A04cbC39387d03cC0C (DAres Token)
